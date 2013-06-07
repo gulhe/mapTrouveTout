@@ -1,0 +1,26 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Street View events</title>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&libraries=geometry"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.1/jquery.min.js"></script>
+    <script src="js/coordinates.js"></script>
+    <script src="js/selectiveRandom.js"></script>
+    <script src="js/mapTrouveTout-lib-v0-1.js"></script>
+    <!-- script src="js/coordinateWizzard.js "></script -->
+    <link rel="stylesheet" href="css/blocks.css" />
+    <script>
+function initialize() {
+
+	mapTrouveTout.buildGame(jQuery('body'));
+	//console.log(mapTrouveTout);
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
+
+
+    </script>
+  </head>
+  <body>
+  </body>
+</html>

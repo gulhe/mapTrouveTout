@@ -1,0 +1,80 @@
+.mapTrouveTout .button,.mapTrouveTout .result-distance {
+	margin: 10px;
+	padding: 5px;
+	position: absolute;
+	background-color: white;
+	border: 2px solid black;
+}
+
+.mapTrouveTout .button {
+	cursor: pointer;
+}
+
+.mapTrouveTout .full {
+	width: 100%;
+	height: 100%;
+}
+
+.mapTrouveTout .guess-pane-wrapper {
+	width: 400px;
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	z-index: 2;
+	background-color: white;
+	border: 5px solid black;
+}
+
+.mapTrouveTout .guess-pane-wrapper .swimmer {
+	z-index: 3;
+}
+
+.mapTrouveTout .guess-pane-wrapper .tirette {
+	position: absolute;
+	height: 25px;
+	bottom: -25px;
+	width: 100%;
+	background-color: white;
+	cursor: row-resize;
+}
+
+.mapTrouveTout .guess-pane-wrapper .guess-pane {
+	width: 100%;
+	height: 400px;
+}
+
+.mapTrouveTout .guess-pane-wrapper .guess-pane .go-guess {
+	bottom: 10px;
+}
+
+#disabledAtTheMoment_ADEL .mapTrouveTout .result-wrapper {
+	border: 10px solid black;
+	height: 80%;
+	left: 10%;
+	position: absolute;
+	top: 10%;
+	width: 80%;
+	z-index: 5;
+	display: none;
+}
+.mapTrouveTout .result-wrapper {
+	height: 100%;
+	left: 0%;
+	position: absolute;
+	top: 0%;
+	width: 100%;
+	z-index: 5;
+	display: none;
+}
+
+.mapTrouveTout .result-map .swimmer {
+	z-index: 7;
+}
+
+.mapTrouveTout .result-distance,.mapTrouveTout .result-retry {
+	bottom: 10px;
+}
+
+.mapTrouveTout .result-wrapper .result-retry {
+	right: 10px;
+}
