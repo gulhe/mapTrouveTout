@@ -47,7 +47,7 @@
 	bottom: 10px;
 }
 
-#disabledAtTheMoment_ADEL .mapTrouveTout .result-wrapper {
+.mapTrouveTout .result-wrapper {
 	border: 10px solid black;
 	height: 80%;
 	left: 10%;
@@ -57,7 +57,7 @@
 	z-index: 5;
 	display: none;
 }
-.mapTrouveTout .result-wrapper {
+#disabledAtTheMoment_ADEL .mapTrouveTout .result-wrapper {
 	height: 100%;
 	left: 0%;
 	position: absolute;
