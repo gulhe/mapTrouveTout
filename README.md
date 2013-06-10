@@ -7,13 +7,11 @@ Like GeoGuessr, but less awesome, but more awesome !
 This project is currently a draft (yet functionnal) version
 -- Current known flaws are :
 
--- -- Result-Panel is in full Screen (it might seem like a feature but it is not, it is definitly a bug. I know ... that makes me sad too)
-
 -- -- It is ugly ... I am not an artist (not in a way that society understands anyway) so this looks bad. If you are not happy with this, i'll gladly accept pull-requests regarding my css and my pictures.
 
 -- -- I have not yet implemented bug report system, I'd like too but I'll have you know that it, currently, is 6:00 pm on a sunny friday ... Burgers are getting cold and beers are getting warm ... I'm sure you understand me.
 
--- -- I have not yet implemented anti "static panoramas" system. See last line for an explanation.
+-- -- I have not yet implemented anti "static panoramas" system.
 
 -- -- It cruelly lacks documentation ... I'll do it soon ...
 
