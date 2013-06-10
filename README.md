@@ -1,7 +1,7 @@
 mapTrouveTout
 =============
 
-Like GeoGuessr, but less awesome, but more awesome
+Like GeoGuessr, but less awesome, but more awesome !
 
 
 This project is currently a draft (yet functionnal) version
